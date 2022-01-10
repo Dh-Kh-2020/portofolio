@@ -104,6 +104,25 @@ section {
 
 }
 
+.about-section .my-info{
+    padding: 20px;
+    margin: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+/* 
+.about-section .my-info span{
+    display: inline-block;
+    font-weight: 400;
+} */
+
+.about-section h4{
+    text-align: center;
+    color: rgb(16, 120, 189);
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
 /* .cards{
     background-color: rgb(238, 248, 255);
 } */
@@ -152,4 +171,23 @@ section {
     font-weight: 700;
     margin: 10px;
 
+}
+
+.cont-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-form input[type="text"], input[type="email"]{
+    
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(6, 55, 87);
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    padding: 20px 200px;
+    text-align: center;
 }
