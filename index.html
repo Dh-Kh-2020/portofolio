@@ -7,112 +7,355 @@
     <meta name="description" content="The portfolio of Dhoha Alkhorasani, Full stack web developer.">
     <meta name="Keywords" content="Dhoha Alkhorasani developer full stack web product software app design portfolio Rwad Coding Academy Taiz Univesity Collage of engineering and information technology">
     
-    <title>Dhoha Alkhorasani | Full stack web developer | Work | portfolio</title>
+    <title>Dhoha Alkhorasani | Full stack web developer | Portfolio</title>
     
-    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 </head>
 <body>
-    <header>
-        <a href="#" class="logo">Dhoha</a>
-        <nav class="navigation">
-            <a href="#home">Home</a>
-            <a href="#about">About Me</a>
-            <a href="#secrvices">Services</a>
-            <a href="#contact">Contact Me</a>
+    <!-- =========== HEADER =========== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">DHOHA</a>
+
+            <div class="nav-menu" id="nav__menu">
+                <ul class="nav-list grid">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">
+                            <i class="uil uil-estate nav-icon"></i> Home <!-- لم تظهر الايقونة -->
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">
+                            <i class="uil uil-user nav-icon"></i> About me 
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">
+                            <i class="uil uil-suitcase-alt nav-icon"></i> Services <!-- لم تظهر الايقونة -->
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">
+                            <i class="uil uil-message nav-icon"></i> Contact me <!-- لم تظهر الايقونة -->
+                        </a>
+                    </li>
+                </ul>
+
+                <i class="uil uil-times nav-close" id="nav_close"></i>
+            </div>
+
+            <div class="nav-btns">
+                <div class="nav-toggle" id="nav_toggle">
+                    <i class="uil uil-apps"></i> <!-- لم تظهر الايقونة -->
+                </div>
+            </div>
         </nav>
     </header>
+    <!-- =========== END HEADER =========== -->
 
-    <section class="main" id="home">
-        <main>
-            <h2>Hello, I'm Dhoha<br><span>Full stack web developer</span></h2>
-            <h3>I build creative web sites</h3>
-            <a href="#" class="main-btn">View my works</a>
-            <div class="social-icon">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-github-square"></i></a>
-                <a href="#"><i class="fab fa-free-code-camp"></i></a>
+    <!-- =========== MAIN =========== -->
+    <main class="main">
+
+        <!-- =========== HOEM =========== -->
+        <section class="home section" id="home">
+            <div class="home-container container grid">
+                <div class="home-content grid">
+                    <div class="home-social">
+                        <a href="https://www.facebook.com/dhoha.alkhorasani/" target="_blank" class="home-social-icon">
+                            <i class="fab fa-facebook"></i>
+                            <!-- <i class="uil uil-facebook-f"></i> -->
+                        </a>
+
+                        <a href="https://github.com/Dh-Kh-2020" target="_blank" class="home-social-icon">
+                            <i class="uil uil-github"></i>
+                        </a>
+                    </div>
+
+                    <div class="home-img">
+                        <?xml version="1.0" standalone="no"?>
+                        <svg class="home-blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M62.8,-60.3C78.7,-47,86.9,-23.5,86.6,-0.2C86.4,23,77.7,46,61.9,60.3C46,74.6,23,80.1,5.6,74.6C-11.9,69,-23.7,52.3,-34.3,38C-44.8,23.7,-54,11.9,-57.9,-3.9C-61.8,-19.7,-60.4,-39.3,-49.9,-52.7C-39.3,-66,-19.7,-73,1.9,-74.9C23.5,-76.8,47,-73.7,62.8,-60.3Z" transform="translate(100 100)" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M62.8,-60.3C78.7,-47,86.9,-23.5,86.6,-0.2C86.4,23,77.7,46,61.9,60.3C46,74.6,23,80.1,5.6,74.6C-11.9,69,-23.7,52.3,-34.3,38C-44.8,23.7,-54,11.9,-57.9,-3.9C-61.8,-19.7,-60.4,-39.3,-49.9,-52.7C-39.3,-66,-19.7,-73,1.9,-74.9C23.5,-76.8,47,-73.7,62.8,-60.3Z" transform="translate(100 100)" />
+                                <image class="home-blob-img" xlink:href="imgs/1613567929-2.jpg" />
+                            </g>
+                        </svg>
+                        <!-- <img src="imgs/1613567929-1.jpg"> -->
+                    </div>
+
+                    <div class="home-data">
+                        <h1 class="home-title">Hi, I'm Dhoha</h1>
+                        <h3 class="home-subtitle">Full stack developer</h3>
+                        <p class="home-description">
+                            High level experience in experience in web design and development, producing quality work.
+                        </p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me<i class="uil uil-message button-icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home-scroll">
+                    <a href="#about" class="home-scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home-scroll-mouse"></i>
+                        <span class="home-scroll-name">Scroll down</span>
+                        <i class="uil uil-arrow-down home-scroll-arrow"></i>
+                    </a>
+                </div>
             </div>
-        </main>
+        </section>
+        <!-- =========== END HOEM =========== -->
+
+        <!-- =========== ABOUT =========== -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About Me</h2>
+            <span class="section-subtitle">My introduction</span>
+
+            <div class="about-container container grid">
+                <!-- <img src="" alt="" class="about-img"> -->
+
+                <div class="about-data">
+                    <p class="about-description">
+                        Web developer, with extensive knowledge and years of experience. <br>
+                        Working in web technologies -- frontend and backend, delivering quality work.
+                    </p>
+
+                    <div class="about-info">
+                        <div>
+                            <span class="about-info-title">03</span><br>
+                            <span class="about-info-name">Years <br> experience</span>
+                        </div>
+
+                        <div>
+                            <span class="about-info-title">07+</span><br>
+                            <span class="about-info-name">Completed <br> project</span>
+                        </div>
+
+                        <div>
+                            <span class="about-info-title">4</span><br>
+                            <span class="about-info-name">Companies <br> worked</span>
+                        </div>
+                    </div>
+
+                    <div class="about-buttons">
+                        <a download="" href="pdf/Dhoha-cv.pdf" class="button button--flex">
+                            Download CV<i class="uil uil-import button-icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+            <!--Skills -->
+            <div class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <span class="section-subtitle">Mt technical level</span>
+
+                <div class="skill-container container grid">
+                    <div>
+                        <!-- skill 1 -->
+                        <div class="skills-content skills-open">
+                            <div class="skills-header">
+                                <i class="uil uil-brackets-curly skills-icon"></i>
+
+                                <div>
+                                    <h1 class="skills-title">Frontend developer</h1>
+                                    <span class="skills-subtitle">More than 3 years</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills-arrow"></i>
+                            </div>
+
+                            <div class="skills-list grid">
+                                <div class="skills-data">
+                                    <div class="skills-title">
+                                        <h3 class="skill-name">HTML</h3>
+                                        <span class="skill-number">90%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <span class="skills-percentage skills-html"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills-data">
+                                    <div class="skills-title">
+                                        <h3 class="skill-name">CSS</h3>
+                                        <span class="skill-number">75%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <span class="skills-percentage skills-css"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills-data">
+                                    <div class="skills-title">
+                                        <h3 class="skill-name">JavaScript</h3>
+                                        <span class="skill-number">60%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <span class="skills-percentage skills-js"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills-data">
+                                    <div class="skills-title">
+                                        <h3 class="skill-name">SASS</h3>
+                                        <span class="skill-number">45%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <span class="skills-percentage skills-sass"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end skill 1 -->
+
+                        <!-- skill 2 -->
+                        <div class="skills-content skills-close">
+                            <div class="skills-header">
+                                <i class="uil uil-server-network-alt skills-icon"></i>
+
+                                <div>
+                                    <h1 class="skills-title">Backend developer</h1>
+                                    <span class="skills-subtitle">2 years</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills-arrow"></i>
+                            </div>
+
+                            <div class="skills-list grid">
+                                <div class="skills-data">
+                                    <div class="skills-title">
+                                        <h3 class="skill-name">PHP</h3>
+                                        <span class="skill-number">80%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <span class="skills-percentage skills-php"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills-data">
+                                    <div class="skills-title">
+                                        <h3 class="skill-name">Python</h3>
+                                        <span class="skill-number">60%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <span class="skills-percentage skills-python"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills-data">
+                                    <div class="skills-title">
+                                        <h3 class="skill-name">Laravel</h3>
+                                        <span class="skill-number">40%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <span class="skills-percentage skills-laravel"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills-data">
+                                    <div class="skills-title">
+                                        <h3 class="skill-name">Node js</h3>
+                                        <span class="skill-number">45%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <span class="skills-percentage skills-node"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end skill 2 -->
+                    </div>
+                </div>
+            </div>
+            <!-- End skills -->
     </section>
+    <!-- =========== END ABOUT =========== -->
 
-    <section id="about" class="about-section"> 
-        <h2 class="title">About Me</h2>
-        <p class="my-info">
-            <span>Hi every body</span> <br>
-            I'm Dhoha Alkhorasani and I'm a web programmer.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quaerat repellat itaque molestiae cumque dicta, eum ad expedita accusamus quae exercitationem repellendus quam, adipisci animi necessitatibus debitis! Accusantium, debitis amet!
-        </p>
-        <h4>My Skills</h4>
-        <div class="content">
-            <div class="card">
-                <div class="icon">
-                    <!-- <i class="fas fa-edit"> -->
+    <!-- =========== SERVICES =========== -->
+    <section class="services section" id="services">
+        <h2 class="section-title">Services</h2>
+        <span class="section-subtitle">What I offer</span>
+
+        <div class="service-container container grid">
+            <!-- service 1 -->
+            <div class="service-content">
+                <div>
+                    <i class="uil uil-arrow services-icon"></i>
+                    <h3 class="service-title">Fronend <br> developer</h3>
                 </div>
-                <div class="info">
-                    <h3>Designing</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sint perspiciatis veniam autem, hic nemo veritatis qui ad repudiandae a laboriosam dolorum minima ducimus obcaecati corporis dolores fugiat dignissimos vero.</p>
+
+                <!-- <span class="button button--flex button--small button--link services-button">
+                    Veiw more
+                    <i class="uil uil-arrow-right button-icon"></i>
+                </span> -->
+
+                <div class="services-modal">
+                    <div class="sercice-modal-content">
+                        <!-- <h4 class="sercice-modal-title">Frontend <br>devevloper</h4> -->
+                        <i class="uil uil-times services-modal-close"></i>
+
+                        <ul class="services-modal-services grid" >
+                            <li class="services-modal-service">
+                                <i class="uil uil-check-circle service-modal-icon"></i>
+                                <p>I develop the user interface</p>
+                            </li>
+                            <li class="services-modal-service">
+                                <i class="uil uil-check-circle service-modal-icon"></i>
+                                <p>web page development</p>
+                            </li>
+                            <li class="services-modal-service">
+                                <i class="uil uil-check-circle service-modal-icon"></i>
+                                <p>I psition your company brand</p>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+            <!-- end service 1 -->
 
-            <div class="card">
-                <div class="icon">
-                    <!-- <i class="fas fa-edit"> -->
+            <!-- service 2 -->
+            <div class="service-content">
+                <div>
+                    <i class="uil uil-pen services-icon"></i>
+                    <h3 class="service-title">Branding <br> designer</h3>
                 </div>
-                <div class="info">
-                    <h3>Scripting</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sint perspiciatis veniam autem, hic nemo veritatis qui ad repudiandae a laboriosam dolorum minima ducimus obcaecati corporis dolores fugiat dignissimos vero.</p>
+
+                <!-- <span class="button button--flex button--small button--link services-button">
+                    Veiw more
+                    <i class="uil uil-arrow-right button-icon"></i>
+                </span> -->
+
+                <div class="services-modal">
+                    <div class="sercice-modal-content">
+                        <!-- <h4 class="sercice-modal-title">Branding <br> designer</h4> -->
+                        <i class="uil uil-times services-modal-close"></i>
+
+                        <ul class="services-modal-services grid" >
+                            <li class="services-modal-service">
+                                <i class="uil uil-check-circle service-modal-icon"></i>
+                                <p>I develop the user interface</p>
+                            </li>
+                            <li class="services-modal-service">
+                                <i class="uil uil-check-circle service-modal-icon"></i>
+                                <p>web page development</p>
+                            </li>
+                            <li class="services-modal-service">
+                                <i class="uil uil-check-circle service-modal-icon"></i>
+                                <p>I psition your company brand</p>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-
+            <!-- end service 2 -->
         </div>
-
     </section>
-
-    <section id="secrvices" class="cards">
-        <h2 class="title">Srvices</h2>
-
-        <div class="content">
-            <div class="card">
-                <div class="icon">
-                    <!-- <i class="fas fa-edit"> -->
-                </div>
-                <div class="info">
-                    <h3>Designing</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sint perspiciatis veniam autem, hic nemo veritatis qui ad repudiandae a laboriosam dolorum minima ducimus obcaecati corporis dolores fugiat dignissimos vero.</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="icon">
-                    <!-- <i class="fas fa-edit"> -->
-                </div>
-                <div class="info">
-                    <h3>Scripting</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sint perspiciatis veniam autem, hic nemo veritatis qui ad repudiandae a laboriosam dolorum minima ducimus obcaecati corporis dolores fugiat dignissimos vero.</p>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-
-    <section id="contact" class="">
-
-        <h3 class="title">Contact Me</h3>
-        <div class="cont-form">
-            <form action="">
-                <input type="text" placeholder="Your Name">
-                <input type="email" placeholder="E-mail address">
-                <textarea placeholder="Your messegeg"></textarea>
-                <input type="submit" value="Send">
-            </form>
-        </div>
-
-    </section>
-
-    <footer>
-        Copy right &#169; for Dhoha RCA
-    </footer>
+    <!-- =========== END SERVICES =========== -->
+    </main>
 </body>
 </html>
