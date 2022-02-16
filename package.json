@@ -1,0 +1,24 @@
+{
+  "name": "portofoilo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dh-Kh-2020/portofolio.git"
+  },
+  "author": "Dhoha_RCA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dh-Kh-2020/portofolio/issues"
+  },
+  "homepage": "https://github.com/Dh-Kh-2020/portofolio#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "http": "^0.0.1-security"
+  }
+}
