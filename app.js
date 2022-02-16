@@ -3,7 +3,7 @@ const app = express();
 
 app.set('view engine','ejs');
 app.set('views', 'views');
-app.listen("8000");
+app.listen(process.env.PORT || 3000);
 app.use(express.static('public'));
 
 console.log("server started");
